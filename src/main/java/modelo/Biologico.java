@@ -6,8 +6,8 @@ public class Biologico extends Desastre{
     private String tipo;
     private float mortalidad;
 
-    public Biologico(String lugar, String fecha, Persona personas, String hora, int perdidaEconomica, ArrayList<Persona> afectados, String tipo, float mortalidad) {
-        super(lugar, fecha, personas, hora, perdidaEconomica, afectados);
+    public Biologico(String lugar, String fecha, Persona personas, String hora, int perdidaEconomica, ArrayList<Persona> desaparecidos, String tipo, float mortalidad) {
+        super(lugar, fecha, personas, hora, perdidaEconomica, desaparecidos);
         this.tipo = tipo;
         this.mortalidad = mortalidad;
     }

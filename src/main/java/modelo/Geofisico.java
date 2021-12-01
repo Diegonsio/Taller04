@@ -7,8 +7,8 @@ public class Geofisico extends Desastre  {
     private int profundidadEpicentro;
 
 
-    public Geofisico(String lugar, String fecha, Persona personas, String hora, int perdidaEconomica, ArrayList<Persona> afectados, int magnitud, int profundidadEpicentro) {
-        super(lugar, fecha, personas, hora, perdidaEconomica, afectados);
+    public Geofisico(String lugar, String fecha, Persona personas, String hora, int perdidaEconomica, ArrayList<Persona> desaparecidos, int magnitud, int profundidadEpicentro) {
+        super(lugar, fecha, personas, hora, perdidaEconomica, desaparecidos);
         this.magnitud = magnitud;
         this.profundidadEpicentro = profundidadEpicentro;
     }
